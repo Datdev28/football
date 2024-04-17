@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.container {
+    margin-top: 350px;
+    display: flex;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.real {
+    width: 200px;
+}
+.mancity {
+    width: 230px;
+}
+.score {
+    display: flex;
+    font-family: weight;
+    font-size: 100px;
+    width: 550px;
+    justify-content: space-around;
+}
+.box {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+    right: 0;
+    margin-top:  0 px;
+    border-radius: 50px;
+    box-shadow: 0 0 50px 20px rgb(5, 1, 16);
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
